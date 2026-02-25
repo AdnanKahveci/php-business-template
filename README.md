@@ -1,6 +1,6 @@
-# Primevilla
+# Template
 
-Amortez şablonuna benzer yapıda, veritabanı ve admin paneli olan **Primevilla** emlak sitesi.
+Amortez şablonuna benzer yapıda, veritabanı ve admin paneli olan **template** emlak sitesi.
 
 ## Gereksinimler
 
@@ -17,7 +17,7 @@ Amortez şablonuna benzer yapıda, veritabanı ve admin paneli olan **Primevilla
    http://localhost/primevilla/install/install.php
    ```
    "Kurulumu Başlat" butonuna tıklayın. Bu işlem:
-   - `primevilla` veritabanını oluşturur
+   - `veritananı` veritabanını oluşturur
    - Tabloları (admin_users, site_settings, contact_messages, pages) oluşturur
    - Varsayılan admin kullanıcısını ekler
 
@@ -48,7 +48,7 @@ Amortez şablonuna benzer yapıda, veritabanı ve admin paneli olan **Primevilla
 Varsayılan (XAMPP): `config/database.php`
 
 - **Host:** localhost  
-- **Veritabanı:** primevilla  
+- **Veritabanı:** DM_NAME  
 - **Kullanıcı:** root  
 - **Şifre:** (boş)
 
