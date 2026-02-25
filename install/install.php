@@ -11,7 +11,7 @@ ini_set('display_errors', 1);
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
 define('DB_PASS', '');
-define('DB_NAME', 'primevilla');
+define('DB_NAME', 'DB_NAME');
 define('DB_CHARSET', 'utf8mb4');
 
 $step = isset($_GET['step']) ? (int)$_GET['step'] : 0;
