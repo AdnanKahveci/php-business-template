@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteBase /primevilla/
+
+# SEO: /projeler -> project.php
+RewriteRule ^projeler$ project.php [L,QSA]
+
+# SEO: /projeler/urun-slug -> project-details.php?slug=urun-slug
+RewriteRule ^projeler/([a-z0-9-]+)$ project-details.php?slug=$1 [L,QSA]
+
+# Blog: /blog -> blog.php
+RewriteRule ^blog$ blog.php [L,QSA]
+
+# Blog detay: /blog/slug -> blog-details.php?slug=slug
+RewriteRule ^blog/([a-z0-9-]+)$ blog-details.php?slug=$1 [L,QSA]

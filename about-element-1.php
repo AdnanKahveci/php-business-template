@@ -1,0 +1,384 @@
+<?php
+/**
+ * Amortez - About Block 01 (PHP) - Ana dizin
+ * Asset yolları Amortez/ klasörüne göre ayarlı.
+ */
+$page_title = 'Elements - About Block 01';
+$base = 'Amortez';
+?>
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+<title>Amortez - <?php echo htmlspecialchars($page_title); ?></title>
+
+<link rel="icon" href="<?php echo $base; ?>/assets/images/favicon.ico" type="image/x-icon">
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<link href="<?php echo $base; ?>/assets/css/font-awesome-all.css" rel="stylesheet">
+<link href="<?php echo $base; ?>/assets/css/flaticon.css" rel="stylesheet">
+<link href="<?php echo $base; ?>/assets/css/owl.css" rel="stylesheet">
+<link href="<?php echo $base; ?>/assets/css/bootstrap.css" rel="stylesheet">
+<link href="<?php echo $base; ?>/assets/css/jquery.fancybox.min.css" rel="stylesheet">
+<link href="<?php echo $base; ?>/assets/css/animate.css" rel="stylesheet">
+<link href="<?php echo $base; ?>/assets/css/nice-select.css" rel="stylesheet">
+<link href="<?php echo $base; ?>/assets/css/color.css" rel="stylesheet">
+<link href="<?php echo $base; ?>/assets/css/global.css" rel="stylesheet">
+<link href="<?php echo $base; ?>/assets/css/blog.css" rel="stylesheet">
+<link href="<?php echo $base; ?>/assets/css/elpath.css" rel="stylesheet">
+<link href="<?php echo $base; ?>/assets/css/style.css" rel="stylesheet">
+<link href="<?php echo $base; ?>/assets/css/responsive.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="boxed_wrapper">
+
+        <div class="loader-wrap">
+            <div class="preloader">
+                <div class="preloader-close">x</div>
+                <div id="handle-preloader" class="handle-preloader">
+                    <div class="animation-preloader">
+                        <div class="spinner"></div>
+                        <div class="txt-loading">
+                            <span data-text-preloader="a" class="letters-loading">a</span>
+                            <span data-text-preloader="m" class="letters-loading">m</span>
+                            <span data-text-preloader="o" class="letters-loading">o</span>
+                            <span data-text-preloader="r" class="letters-loading">r</span>
+                            <span data-text-preloader="t" class="letters-loading">t</span>
+                            <span data-text-preloader="e" class="letters-loading">e</span>
+                            <span data-text-preloader="z" class="letters-loading">z</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <header class="main-header header-style-one">
+            <div class="header-lower">
+                <div class="large-container">
+                    <div class="outer-box">
+                        <div class="logo-box">
+                            <figure class="logo"><a href="index.php"><img src="<?php echo $base; ?>/assets/images/logo.png" alt=""></a></figure>
+                        </div>
+                        <div class="menu-area clearfix">
+                            <div class="mobile-nav-toggler">
+                                <i class="icon-bar"></i>
+                                <i class="icon-bar"></i>
+                                <i class="icon-bar"></i>
+                            </div>
+                            <nav class="main-menu navbar-expand-md navbar-light">
+                                <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                                    <ul class="navigation clearfix">
+                                        <li class="dropdown"><a href="index.php">Home</a>
+                                            <ul>
+                                                <li><a href="index.php">Home Page 01</a></li>
+                                                <li><a href="<?php echo $base; ?>/index-2.html">Home Page 02</a></li>
+                                                <li><a href="<?php echo $base; ?>/index-3.html">Home Page 03</a></li>
+                                                <li><a href="<?php echo $base; ?>/index-onepage.html">OnePage Home</a></li>
+                                                <li><a href="<?php echo $base; ?>/index-rtl.html">RTL Home</a></li>
+                                                <li class="dropdown"><a href="index.php">Header Style</a>
+                                                    <ul>
+                                                        <li><a href="index.php">Header Style 01</a></li>
+                                                        <li><a href="<?php echo $base; ?>/index-2.html">Header Style 02</a></li>
+                                                        <li><a href="<?php echo $base; ?>/index-3.html">Header Style 03</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="index.php">About</a>
+                                            <ul>
+                                                <li><a href="about.php">About Us</a></li>
+                                                <li><a href="<?php echo $base; ?>/service.html">Our Services</a></li>
+                                                <li><a href="<?php echo $base; ?>/error.html">404</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="index.php">Projects</a>
+                                            <ul>
+                                                <li><a href="<?php echo $base; ?>/project.html">Projects 01</a></li>
+                                                <li><a href="<?php echo $base; ?>/project-2.html">Projects 02</a></li>
+                                                <li><a href="<?php echo $base; ?>/project-details.html">Project Details</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="current dropdown"><a href="index.php">Elements</a>
+                                            <div class="megamenu">
+                                                <div class="row clearfix">
+                                                    <div class="col-xl-6 column">
+                                                        <ul>
+                                                            <li><h4>Elements 1</h4></li>
+                                                            <li><a href="about-element-1.php">About Block 01</a></li>
+                                                            <li><a href="<?php echo $base; ?>/about-element-2.html">About Block 02</a></li>
+                                                            <li><a href="<?php echo $base; ?>/about-element-3.html">About Block 03</a></li>
+                                                            <li><a href="<?php echo $base; ?>/feature-element-1.html">Feature Block 01</a></li>
+                                                            <li><a href="<?php echo $base; ?>/feature-element-2.html">Feature Block 02</a></li>
+                                                            <li><a href="<?php echo $base; ?>/Feature-element-3.html">Feature Block 03</a></li>
+                                                            <li><a href="<?php echo $base; ?>/Feature-element-4.html">Feature Block 04</a></li>
+                                                            <li><a href="<?php echo $base; ?>/service-element-1.html">Service Block 01</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-xl-6 column">
+                                                        <ul>
+                                                            <li><h4>Elements 2</h4></li>
+                                                            <li><a href="<?php echo $base; ?>/service-element-2.html">Service Block 02</a></li>
+                                                            <li><a href="<?php echo $base; ?>/team-element-1.html">Team Block 01</a></li>
+                                                            <li><a href="<?php echo $base; ?>/team-element-2.html">Team Block 02</a></li>
+                                                            <li><a href="<?php echo $base; ?>/news-element-1.html">News Block 01</a></li>
+                                                            <li><a href="<?php echo $base; ?>/news-element-2.html">News Block 02</a></li>
+                                                            <li><a href="<?php echo $base; ?>/funfact-element-1.html">Funfact Block 01</a></li>
+                                                            <li><a href="<?php echo $base; ?>/funfact-element-2.html">Funfact Block 02</a></li>
+                                                            <li><a href="<?php echo $base; ?>/clients-element.html">Clients Block</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="dropdown"><a href="index.php">Blog</a>
+                                            <ul>
+                                                <li><a href="<?php echo $base; ?>/blog.html">Blog Grid</a></li>
+                                                <li><a href="<?php echo $base; ?>/blog-2.html">Blog List</a></li>
+                                                <li><a href="<?php echo $base; ?>/blog-details.html">Blog Details</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contact.php">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="nav-right">
+                            <div class="support-box">
+                                <div class="icon-box"><i class="far fa-phone"></i></div>
+                                <span>Start a New Project</span>
+                                <h3><a href="tel:1800222155">1800-222-155</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sticky-header">
+                <div class="large-container">
+                    <div class="outer-box">
+                        <div class="logo-box">
+                            <figure class="logo"><a href="index.php"><img src="<?php echo $base; ?>/assets/images/logo.png" alt=""></a></figure>
+                        </div>
+                        <div class="menu-area clearfix">
+                            <nav class="main-menu clearfix"></nav>
+                        </div>
+                        <div class="nav-right">
+                            <div class="support-box">
+                                <div class="icon-box"><i class="far fa-phone"></i></div>
+                                <span>Start a New Project</span>
+                                <h3><a href="tel:1800222155">1800-222-155</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><i class="fas fa-times"></i></div>
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index.php"><img src="<?php echo $base; ?>/assets/images/logo-2.png" alt="" title=""></a></div>
+                <div class="menu-outer"></div>
+                <div class="contact-info">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>Chicago 12, Melborne City, USA</li>
+                        <li><a href="tel:+8801682648101">+88 01682648101</a></li>
+                        <li><a href="mailto:info@example.com">info@example.com</a></li>
+                    </ul>
+                </div>
+                <div class="social-links">
+                    <ul class="clearfix">
+                        <li><a href="index.php"><span class="fab fa-twitter"></span></a></li>
+                        <li><a href="index.php"><span class="fab fa-facebook-square"></span></a></li>
+                        <li><a href="index.php"><span class="fab fa-pinterest-p"></span></a></li>
+                        <li><a href="index.php"><span class="fab fa-instagram"></span></a></li>
+                        <li><a href="index.php"><span class="fab fa-youtube"></span></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <section class="page-title p_relative pt_250 pb_170 centred" style="background-image: url(<?php echo $base; ?>/assets/images/background/page-title.jpg);">
+            <div class="bg-layer p_absolute r_100 t_0" style="background-image: url(<?php echo $base; ?>/assets/images/background/page-title.png);"></div>
+            <div class="large-container">
+                <div class="content-box p_relative d_block z_5">
+                    <div class="title mb_25">
+                        <h1 class="d_block fs_68 lh_76 color_white fw_exbold">Elements</h1>
+                    </div>
+                    <ul class="bread-crumb clearfix">
+                        <li class="p_relative d_iblock fs_16 color_white pl_45 pr_30 mr_10"><i class="fas fa-home"></i><a href="index.php" class="color_white hov_color">Home</a></li>
+                        <li class="p_relative d_iblock fs_16 color_white">About Block 01</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section bg-color-1 p_relative sec-pad">
+            <div class="bg-layer p_absolute" style="background-image: url(<?php echo $base; ?>/assets/images/shape/shape-1.png);"></div>
+            <div class="large-container">
+                <div class="row clearfix">
+                    <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+                        <div class="content_block_1">
+                            <div class="content-box p_relative d_block mr_90">
+                                <div class="sec-title mb_25">
+                                    <div class="icon-box p_relative d_block fs_14 lh_20 mb_15"><i class="icon-4"></i></div>
+                                    <h2 class="p_relative d_block fs_50 lh_60 fw_exbold">World Of Smart Spaces And Development</h2>
+                                </div>
+                                <div class="text p_relative d_block mb_30">
+                                    <p>Voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur anim tideyl laborum sed ut perspiciatis und omnis iste natus error sit holuptatem accusantium dolor mque laudantium.</p>
+                                </div>
+                                <div class="inner-box centred p_relative d_block mb_50">
+                                    <div class="row clearfix">
+                                        <div class="col-lg-4 col-md-6 col-sm-12 single-column">
+                                            <div class="single-item p_relative d_block">
+                                                <div class="icon-box p_relative d_iblock fs_45 lh_80 b_radius_50 bg_white color_black tran_5 mb_10"><i class="icon-5"></i></div>
+                                                <h5 class="d_block fs_18 lh_30 fw_sbold">Best Amenities</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 col-sm-12 single-column">
+                                            <div class="single-item p_relative d_block">
+                                                <div class="icon-box p_relative d_iblock fs_45 lh_80 b_radius_50 bg_white color_black tran_5 mb_10"><i class="icon-6"></i></div>
+                                                <h5 class="d_block fs_18 lh_30 fw_sbold">Gracious Living</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 col-sm-12 single-column">
+                                            <div class="single-item p_relative d_block before-none">
+                                                <div class="icon-box p_relative d_iblock fs_40 lh_80 b_radius_50 bg_white color_black tran_5 mb_10"><i class="icon-7"></i></div>
+                                                <h5 class="d_block fs_18 lh_30 fw_sbold">Modern Spaces</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="about.php" class="theme-btn btn-one">Learn More<i class="icon-3"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+                        <div class="image-box p_relative d_block pl_140 pt_90">
+                            <figure class="image image-1 p_relative paroller"><img src="<?php echo $base; ?>/assets/images/resource/about-1.jpg" alt=""></figure>
+                            <figure class="image image-2 p_absolute paroller-2"><img src="<?php echo $base; ?>/assets/images/resource/about-2.jpg" alt=""></figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="main-footer">
+            <div class="large-container">
+                <div class="footer-top">
+                    <div class="row clearfix">
+                        <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
+                            <div class="footer-widget logo-widget">
+                                <figure class="footer-logo"><a href="index.php"><img src="<?php echo $base; ?>/assets/images/footer-logo.png" alt=""></a></figure>
+                                <div class="text">
+                                    <p>Cillum dolre fugiat nula pariatur excepteur anim idet laborum. Sed ut perspiciatis und kmnis iste natus goluptatem.</p>
+                                </div>
+                                <div class="location-box">
+                                    <div class="icon-box"><i class="fal fa-map-marker-alt"></i></div>
+                                    <p>52 Serina Avenue, Highland Mills New York 10930 - USA</p>
+                                </div>
+                                <div class="support-box">
+                                    <div class="icon-box"><i class="far fa-phone"></i></div>
+                                    <span>Start a New Project</span>
+                                    <h3><a href="tel:1800222155">1800-222-155</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                            <div class="footer-widget links-widget">
+                                <div class="widget-title"><h3>Services</h3></div>
+                                <div class="widget-content">
+                                    <ul class="links-list clearfix">
+                                        <li><a href="index.php">Property Construction</a></li>
+                                        <li><a href="index.php">Investor Relations</a></li>
+                                        <li><a href="index.php">Community Development</a></li>
+                                        <li><a href="index.php">Property Management</a></li>
+                                        <li><a href="index.php">Floor Designing</a></li>
+                                        <li><a href="index.php">Re-Construct Buildings</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-sm-12 footer-column">
+                            <div class="footer-widget links-widget">
+                                <div class="widget-title"><h3>About Us</h3></div>
+                                <div class="widget-content">
+                                    <ul class="links-list clearfix">
+                                        <li><a href="index.php">Mission and Vision</a></li>
+                                        <li><a href="index.php">Our Projects</a></li>
+                                        <li><a href="index.php">Latest Articles</a></li>
+                                        <li><a href="index.php">Media Presentation</a></li>
+                                        <li><a href="index.php">Pricing Structure</a></li>
+                                        <li><a href="index.php">Terms & Conditions</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                            <div class="footer-widget gallery-widget ml_60">
+                                <div class="widget-title"><h3>Our Gallery</h3></div>
+                                <div class="widget-content">
+                                    <ul class="image-list clearfix">
+                                        <li><figure class="image"><a href="<?php echo $base; ?>/project-details.html"><img src="<?php echo $base; ?>/assets/images/resource/footer-gallery-1.jpg" alt=""></a></figure></li>
+                                        <li><figure class="image"><a href="<?php echo $base; ?>/project-details.html"><img src="<?php echo $base; ?>/assets/images/resource/footer-gallery-2.jpg" alt=""></a></figure></li>
+                                        <li><figure class="image"><a href="<?php echo $base; ?>/project-details.html"><img src="<?php echo $base; ?>/assets/images/resource/footer-gallery-3.jpg" alt=""></a></figure></li>
+                                        <li><figure class="image"><a href="<?php echo $base; ?>/project-details.html"><img src="<?php echo $base; ?>/assets/images/resource/footer-gallery-4.jpg" alt=""></a></figure></li>
+                                        <li><figure class="image"><a href="<?php echo $base; ?>/project-details.html"><img src="<?php echo $base; ?>/assets/images/resource/footer-gallery-5.jpg" alt=""></a></figure></li>
+                                        <li><figure class="image"><a href="<?php echo $base; ?>/project-details.html"><img src="<?php echo $base; ?>/assets/images/resource/footer-gallery-6.jpg" alt=""></a></figure></li>
+                                        <li><figure class="image"><a href="<?php echo $base; ?>/project-details.html"><img src="<?php echo $base; ?>/assets/images/resource/footer-gallery-7.jpg" alt=""></a></figure></li>
+                                        <li><figure class="image"><a href="<?php echo $base; ?>/project-details.html"><img src="<?php echo $base; ?>/assets/images/resource/footer-gallery-8.jpg" alt=""></a></figure></li>
+                                        <li><figure class="image"><a href="<?php echo $base; ?>/project-details.html"><img src="<?php echo $base; ?>/assets/images/resource/footer-gallery-9.jpg" alt=""></a></figure></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom clearfix centred">
+                    <div class="copyright">
+                        <p>Copyrights &copy; <?php echo date('Y'); ?> <a href="index.php">Amortez</a> Estate Builders.</p>
+                    </div>
+                    <ul class="footer-nav clearfix">
+                        <li><a href="index.php">Privacy Policy</a></li>
+                        <li><a href="index.php">Booking Guide</a></li>
+                    </ul>
+                    <ul class="footer-social">
+                        <li><a href="index.php"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="index.php"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="index.php"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="index.php"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="index.php"><i class="fab fa-pinterest-p"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <button class="scroll-top scroll-to-target" data-target="html">
+            <span class="fal fa-long-arrow-up"></span>
+        </button>
+    </div>
+
+    <script src="<?php echo $base; ?>/assets/js/jquery.js"></script>
+    <script src="<?php echo $base; ?>/assets/js/popper.min.js"></script>
+    <script src="<?php echo $base; ?>/assets/js/bootstrap.min.js"></script>
+    <script src="<?php echo $base; ?>/assets/js/owl.js"></script>
+    <script src="<?php echo $base; ?>/assets/js/wow.js"></script>
+    <script src="<?php echo $base; ?>/assets/js/validation.js"></script>
+    <script src="<?php echo $base; ?>/assets/js/jquery.fancybox.js"></script>
+    <script src="<?php echo $base; ?>/assets/js/appear.js"></script>
+    <script src="<?php echo $base; ?>/assets/js/scrollbar.js"></script>
+    <script src="<?php echo $base; ?>/assets/js/isotope.js"></script>
+    <script src="<?php echo $base; ?>/assets/js/jquery.paroller.min.js"></script>
+    <script src="<?php echo $base; ?>/assets/js/jquery.nice-select.min.js"></script>
+    <script src="<?php echo $base; ?>/assets/js/script.js"></script>
+
+</body>
+</html>
